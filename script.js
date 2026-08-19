@@ -46,14 +46,8 @@ const CREADORES = [
 // "src" puede ser una imagen local (ej: "assets/thumbnails/mini1.jpg")
 // o una URL. Mientras no tengas las tuyas, se genera un placeholder automático.
 const MINIATURAS = [
-  { titulo: "Miniatura 01", src: ""assets/thumbnails/Tomodachi2" },
-  { titulo: "Miniatura 02", src: ""assets/thumbnails/Five-Nights-At-Freddy" },
-  { titulo: "Miniatura 03", src: "" },
-  { titulo: "Miniatura 04", src: "" },
-  { titulo: "Miniatura 05", src: "" },
-  { titulo: "Miniatura 06", src: "" },
-  { titulo: "Miniatura 07", src: "" },
-  { titulo: "Miniatura 08", src: "" }
+  { titulo: "Miniatura 1", src: "assets/thumbnails/Tomodachi2" },
+  { titulo: "Miniatura 2", src: "assets/thumbnails/Five-Nights-At-Freddy" }
 ];
 
 // Tus contactos / redes.
