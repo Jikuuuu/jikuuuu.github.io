@@ -11,33 +11,33 @@ const CREADORES = [
     nombre: "ChinaSSJ",
     rol: "Edición de contenido",
     videos: [
-      { titulo: "Video 1 — poné el título real", youtubeId: "" },
-      { titulo: "Video 2 — poné el título real", youtubeId: "" },
-      { titulo: "Video 3 — poné el título real", youtubeId: "" }
+      { titulo: "IRL — mi humilde mansión 🏠", youtubeId: "XIRlE-jJgPA" },
+      { titulo: "Gameplay — ", youtubeId: "XmYB4425aHY" },
+      { titulo: "Reacción — re zorrita", youtubeId: "Ln520EsfG9A" }
     ]
   },
   {
     nombre: "Oscurlod",
     rol: "Edición de contenido",
     videos: [
-      { titulo: "Video 1 — poné el título real", youtubeId: "" },
-      { titulo: "Video 2 — poné el título real", youtubeId: "" }
+      { titulo: "Video 1 — 10 GRANJAS NUEVAS EN MI MUNDO", youtubeId: "fRC6KIhJTT8" },
+      { titulo: "Video 2 — ESTOY EN MI PRIME DE FORTNITE", youtubeId: "i913AKhwpJQ&t" }
     ]
   },
   {
     nombre: "Lokonazo1",
     rol: "Edición de contenido",
     videos: [
-      { titulo: "Video 1 — poné el título real", youtubeId: "" },
-      { titulo: "Video 2 — poné el título real", youtubeId: "" }
+      { titulo: "Video 1 — FUI ARBITRO DE LA FINAL DEL MUNDO", youtubeId: "4Ykwxej781Q" },
+      { titulo: "Video 2 — SPREEN me DONÓ para que ESTÉ 1 AÑO EN STREAM", youtubeId: "yZ7Z37moNbE&t" },
     ]
   },
   {
     nombre: "AlexOmar",
     rol: "Edición de contenido",
     videos: [
-      { titulo: "Video 1 — poné el título real", youtubeId: "" },
-      { titulo: "Video 2 — poné el título real", youtubeId: "" }
+      { titulo: "Video 1 — UN EXTRAÑO LLEGA A MI HOTEL… | Fears To Fathom", youtubeId: "o3fiLM1SAVA" },
+      { titulo: "Video 2 — MAMÁ SE CREE QUE MANDA", youtubeId: "1RK8vEJJMfU" }
     ]
   }
 ];
