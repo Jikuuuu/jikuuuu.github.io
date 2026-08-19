@@ -11,7 +11,7 @@ const CREADORES = [
     nombre: "ChinaSSJ",
     rol: "Edición de contenido",
     videos: [
-      { titulo: "IRL — mi humilde mansión 🏠", youtubeId: "XIRlE-jJgPA" },
+      { titulo: "IRL — mi humilde mansión", youtubeId: "XIRlE-jJgPA" },
       { titulo: "Gameplay — ", youtubeId: "XmYB4425aHY" },
       { titulo: "Reacción — re zorrita", youtubeId: "Ln520EsfG9A" }
     ]
