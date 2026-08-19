@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Editor de Video &amp; Miniaturas — Portafolio</title>
+<meta name="description" content="Portafolio de edición de video y diseño de miniaturas para creadores de contenido.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Regla de tiempo / navegación con playhead -->
+<header class="timeline-nav" id="timelineNav">
+  <div class="timeline-nav__inner">
+    <a href="#inicio" class="timeline-nav__logo">EDIT<span>•</span>RACK</a>
+    <nav class="timeline-nav__links">
+      <a href="#inicio" data-section="inicio">00:00 <span>INICIO</span></a>
+      <a href="#creadores" data-section="creadores">00:10 <span>CREADORES</span></a>
+      <a href="#miniaturas" data-section="miniaturas">00:24 <span>MINIATURAS</span></a>
+      <a href="#contacto" data-section="contacto">00:33 <span>CONTACTO</span></a>
+    </nav>
+    <button class="timeline-nav__toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="timeline-ruler" aria-hidden="true">
+    <div class="timeline-ruler__ticks"></div>
+    <div class="timeline-ruler__playhead" id="playhead"></div>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero__frame">
+      <span class="hero__rec"><i></i>REC</span>
+      <span class="hero__timecode" id="heroTimecode">00:00:00:00</span>
+    </div>
+    <h1 class="hero__title" data-text="EDITO LO QUE OTROS SOLO GRABAN">
+      EDITO LO QUE<br>OTROS SOLO<br>GRABAN
+    </h1>
+    <p class="hero__subtitle">
+      Editor de video &amp; diseñador de miniaturas. Corto, mezclo y armo el clic
+      que hace que alguien pare de scrollear.
+    </p>
+    <div class="hero__cta">
+      <a href="#creadores" class="btn btn--primary">Ver mi trabajo</a>
+      <a href="#contacto" class="btn btn--ghost">Contactarme</a>
+    </div>
+    <div class="hero__scrub" aria-hidden="true">
+      <div class="hero__scrub-fill"></div>
+      <div class="hero__scrub-handle"></div>
+    </div>
+  </section>
+
+  <!-- CREADORES -->
+  <section class="creadores" id="creadores">
+    <div class="section-head">
+      <span class="section-head__tc">00:10</span>
+      <h2>Por creador de contenido</h2>
+      <p>Cada bloque es un "clip rack": los videos que edité para ese creador.</p>
+    </div>
+    <div class="creadores__list" id="creadoresList">
+      <!-- Se llena desde js/script.js -->
+    </div>
+  </section>
+
+  <!-- MINIATURAS -->
+  <section class="miniaturas" id="miniaturas">
+    <div class="section-head">
+      <span class="section-head__tc">00:24</span>
+      <h2>Miniaturas</h2>
+      <p>Todas juntas, sin dividir por creador. Pasá el mouse o tocá para verlas mejor.</p>
+    </div>
+    <div class="miniaturas__grid" id="miniaturasGrid">
+      <!-- Se llena desde js/script.js -->
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="contacto" id="contacto">
+    <div class="section-head">
+      <span class="section-head__tc">00:33</span>
+      <h2>Hablemos</h2>
+      <p>¿Tenés un canal y necesitás edición o miniaturas? Escribime.</p>
+    </div>
+    <div class="contacto__links" id="contactoLinks">
+      <!-- Se llena desde js/script.js -->
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>© <span id="year"></span> — Portafolio hecho a mano. Editado como un buen corte: sin cortes de más.</p>
+</footer>
+
+<!-- Lightbox para miniaturas -->
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <button class="lightbox__close" id="lightboxClose" aria-label="Cerrar">✕</button>
+  <img src="" alt="" id="lightboxImg">
+  <p id="lightboxCaption"></p>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
